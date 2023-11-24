@@ -1,0 +1,29 @@
+element.style {
+}
+<style>
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 35px;
+}
+<style>
+.container {
+    max-width: 1068px;
+    margin-left: auto;
+    margin-right: auto;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+<style>
+body {
+    color: var(--text-color);
+}
+<style>
+:root {
+    --main-color: #d90429;
+    --text-color: #020102;
+    --bg-color: #fff;
+}
