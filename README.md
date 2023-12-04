@@ -10,3 +10,5 @@ User Registration: Users can sign up for an account on the platform, providing a
 User Authentication: Users can log in to their account using their email address and password.
 
 Car Listing: Users can add their cars to the platform, providing information such as the brand, model, year, price, description, and images.
+
+
