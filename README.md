@@ -1,2 +1,2 @@
 # Car-selling-Bidding-Platform
-The car Selling and biddding website!
+The car-selling and bidding website!
