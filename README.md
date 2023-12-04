@@ -15,3 +15,4 @@ Car Browsing: Users can browse the listings of cars, filtering and sorting them.
 
 Car Biding:
 
+My Cars List: Users can manage and see their cars.
