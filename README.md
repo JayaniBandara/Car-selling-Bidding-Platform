@@ -11,4 +11,4 @@ User Authentication: Users can log in to their account using their email address
 
 Car Listing: Users can add their cars to the platform, providing information such as the brand, model, year, price, description, and images.
 
-
+Car Browsing: Users can browse the listings of cars, filtering and sorting them.
