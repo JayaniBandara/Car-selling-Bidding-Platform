@@ -180,7 +180,6 @@
                 const cardTitle = $(this).find('.card-title').text().toLowerCase();
                 const cardBrand = $(this).find('.card-brand').text().toLowerCase();
 
-                // Show or hide the card based on the search result
                 if (cardTitle.includes(searchValue) || cardBrand.includes(searchValue)) {
                     $(this).show();
                 } else {
