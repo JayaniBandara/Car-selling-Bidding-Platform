@@ -107,36 +107,32 @@
 
     <h1 class="text-uppercase text-primary mb-1">Selling Car List</h1>
 
-<div class="container mt-5">
-    <div class="row">
-        {% for listing in listings %}
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <img src="{{ listing.image.url }}" class="card-img-top" alt="{{ listing.name }}">
-                    <div class="card-body">
-                        <h5 class="card-title">{{ listing.name }}</h5>
-                        <p class="card-text">
-                            <strong>Brand:</strong> {{ listing.brand }}<br>
-                            <strong>Milage (km):</strong> {{ listing.milage }}<br>
-                            
-                            <strong>Price:</strong> ${{ listing.price }}
-                        </p>
-                        <a href="{% url 'listing' listing.id %}" class="btn btn-primary">View Details</a>
+    <div class="container mt-5">
+        <div class="row">
+            {% for listing in listings %}
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="{{ listing.image.url }}" class="card-img-top" alt="{{ listing.name }}">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ listing.name }}</h5>
+                            <p class="card-text">
+                                <strong>Brand:</strong> {{ listing.brand }}<br>
+                                <strong>Milage (km):</strong> {{ listing.milage }}<br>
+                                
+                                <strong>Price:</strong> ${{ listing.price }}
+                            </p>
+                            <a href="{% url 'listing' listing.id %}" class="btn btn-primary">View Details</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        {% endfor %}
+            {% endfor %}
+        </div>
     </div>
-</div>
-<!-- Car Listings End -->
 
 
-<h1 class="text-uppercase text-primary mb-1">Bid Car List</h1>
+    <h1 class="text-uppercase text-primary mb-1">Bid Car List</h1>
     
 
-
-
-<!-- Bidding Listings Start -->
 <div class="container mt-5">
     <div class="row">
         {% for bidding in biddings %}
