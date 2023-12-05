@@ -39,8 +39,7 @@ def LoginPage(request):
         pass1=request.POST.get('pass')
         user=authenticate(request,username=username,password=pass1)
         if user is not None:
-            login(request,user)
-            return redirect('index.html')
+
 
 
 
