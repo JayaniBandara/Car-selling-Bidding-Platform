@@ -7,9 +7,9 @@ from django.shortcuts import render
 from .models import Bidding
 
 def bid_update(request):
-    # Retrieve the previous bid, current bid, and bid update count
-    previous_bid = Bidding.objects.last()  # Assuming you have a suitable way to determine the "previous" bid
-    current_bid = Bidding.objects.latest('id')  # Assuming the bids have an ID field
+    
+    previous_bid = Bidding.objects.last()  
+    current_bid = Bidding.objects.latest('id')  
     bid_update_count = Bidding.objects.count()
 
     return render(request, 'bidupdate.html', {'form': BiddingForm(), 'previous_bid': previous_bid, 'current_bid': current_bid, 'bid_update_count': bid_update_count})
