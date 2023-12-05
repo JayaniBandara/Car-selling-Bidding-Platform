@@ -42,7 +42,7 @@ def LoginPage(request):
             login(request,user)
             return redirect('index.html')
         else:
-            return HttpResponse ("Username or Password is incorrect!!!")
+
 
 
 
