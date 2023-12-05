@@ -28,9 +28,7 @@ def SignupPage(request):
             return redirect('login')
     return render (request,'login.html')
     
-def LogoutPage(request):
-        logout(request)
-        return redirect('login')
+
     
 
 
