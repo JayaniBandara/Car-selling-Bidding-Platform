@@ -23,10 +23,6 @@ def SignupPage(request):
             return HttpResponse("Your password and confrom password are not Same!!")
         else:
 
-            my_user=User.objects.create_user(uname,email,pass1)
-            my_user.save()
-            return redirect('login')
-    return render (request,'login.html')
     
 
     
