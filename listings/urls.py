@@ -19,8 +19,7 @@ urlpatterns = [
     path('bidform.html', views.create_bid, name='create_bid'),  # Add this line for bidform 
     path('delete/<int:id>/', views.delete, name='delete'),
     path('bid_update/<int:id>/', views.bid_update, name='bid_update'),
-    path('logout/',views.LogoutPage,name='logout'),
-    path('login/',views.LoginPage,name='login'),
+
     
     
     path('index.html', views.index), 
