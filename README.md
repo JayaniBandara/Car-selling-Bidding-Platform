@@ -44,14 +44,18 @@ Push to your fork and submit a pull request.
    [git clone https://github.com/your-username/Car-selling-Bidding-Platform.git](https://github.com/JayaniBandara/Car-selling-Bidding-Platform.git)
 
 ## Front End
+
+![Screenshot 2023-12-05 191948](https://github.com/JayaniBandara/Car-selling-Bidding-Platform/assets/147615801/af18fd71-084e-4134-a6e3-a19d759f489b)
+![Screenshot 2023-12-05 192003](https://github.com/JayaniBandara/Car-selling-Bidding-Platform/assets/147615801/0f47600c-5ada-4aa9-94c0-4a0f1828ea86)
+![Screenshot 2023-12-05 192019](https://github.com/JayaniBandara/Car-selling-Bidding-Platform/assets/147615801/3b43afad-7b92-4367-ba7c-74cc5d638973)
 ![Screenshot 2023-12-05 192809](https://github.com/JayaniBandara/Car-selling-Bidding-Platform/assets/147615801/fc627754-dda8-4561-91b4-ec41c9f716ac)
 ![Screenshot 2023-12-05 192535](https://github.com/JayaniBandara/Car-selling-Bidding-Platform/assets/147615801/58469f12-b90a-478e-a100-da28e394da2d)
 ![Screenshot 2023-12-05 192210](https://github.com/JayaniBandara/Car-selling-Bidding-Platform/assets/147615801/4dfa3171-9bc6-42bd-80de-a30a1409679c)
 ![Screenshot 2023-12-05 192132](https://github.com/JayaniBandara/Car-selling-Bidding-Platform/assets/147615801/9b719c91-50ab-4f0b-80bf-a696ec762c20)
 ![Screenshot 2023-12-05 192038](https://github.com/JayaniBandara/Car-selling-Bidding-Platform/assets/147615801/5375700d-8579-45b0-89a7-df6badb96954)
-![Screenshot 2023-12-05 192019](https://github.com/JayaniBandara/Car-selling-Bidding-Platform/assets/147615801/3b43afad-7b92-4367-ba7c-74cc5d638973)
-![Screenshot 2023-12-05 192003](https://github.com/JayaniBandara/Car-selling-Bidding-Platform/assets/147615801/0f47600c-5ada-4aa9-94c0-4a0f1828ea86)
-![Screenshot 2023-12-05 191948](https://github.com/JayaniBandara/Car-selling-Bidding-Platform/assets/147615801/af18fd71-084e-4134-a6e3-a19d759f489b)
+
+
+
 
 
 
