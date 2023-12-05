@@ -44,7 +44,6 @@ def LoginPage(request):
         else:
             return HttpResponse ("Username or Password is incorrect!!!")
 
-    return render (request,'login.html')
 
 
 
