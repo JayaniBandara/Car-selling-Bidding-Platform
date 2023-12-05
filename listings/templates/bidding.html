@@ -104,7 +104,22 @@
         </div>
     </div>
 
-       
+           <!-- Content specific to bid_update.html -->
+    <div class="container-fluid bg-white pt-3 px-lg-5">
+        <h1>Bid Update Details</h1>
+        <p><h5>
+            <strong>Car Make:</strong> {{ bidding.car_make }}<br>
+            <strong>Bid Amount:</strong> ${{ bidding.bid_amount }}<br>
+            <strong>Car Model:</strong> {{ bidding.car_model }}<br></h5>
+            <!-- Add any additional fields related to the bid here -->
+        </p>
+        <img src="{{ bidding.image.url }}" alt="{{ bidding.car_make }}" width="400" height="300">
+        <div>
+            <h3><a href='/bid_update/{{ bidding.id }}'>Update Your Bid</a></h3>
+            <!-- Add any additional links or buttons for bid actions -->
+        </div>
+    </div>
+
 
     <div class="container-fluid bg-dark py-4 px-sm-3 px-md-5">
         <p class="mb-2 text-center text-body">Created by Group23 Final Assignment</p>
