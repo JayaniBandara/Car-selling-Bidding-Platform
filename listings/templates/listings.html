@@ -172,26 +172,23 @@
 
     <script src="static/js/main.js"></script>
 
-<script>
-    // Function to filter cars based on brand name
-    function filterCars() {
-        // Get the search input value
-        const searchValue = $('#brand-search').val().toLowerCase();
+    <script>
+        function filterCars() {
+           const searchValue = $('#brand-search').val().toLowerCase();
 
-        // Select all card elements
-        $('.card').each(function () {
-            const cardTitle = $(this).find('.card-title').text().toLowerCase();
-            const cardBrand = $(this).find('.card-brand').text().toLowerCase();
+            $('.card').each(function () {
+                const cardTitle = $(this).find('.card-title').text().toLowerCase();
+                const cardBrand = $(this).find('.card-brand').text().toLowerCase();
 
-            // Show or hide the card based on the search result
-            if (cardTitle.includes(searchValue) || cardBrand.includes(searchValue)) {
-                $(this).show();
-            } else {
-                $(this).hide();
-            }
-        });
-    }
-</script>
+                // Show or hide the card based on the search result
+                if (cardTitle.includes(searchValue) || cardBrand.includes(searchValue)) {
+                    $(this).show();
+                } else {
+                    $(this).hide();
+                }
+            });
+        }
+    </script>
 </body>
 
 </html>
