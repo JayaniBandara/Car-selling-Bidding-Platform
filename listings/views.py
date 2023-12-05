@@ -33,12 +33,6 @@ def LogoutPage(request):
         return redirect('login')
     
 
-def LoginPage(request):
-    if request.method=='POST':
-        username=request.POST.get('username')
-        pass1=request.POST.get('pass')
-        user=authenticate(request,username=username,password=pass1)
-        if user is not None:
 
 
 
