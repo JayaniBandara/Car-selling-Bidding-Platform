@@ -42,19 +42,9 @@ Push to your fork and submit a pull request.
    ```bash
    [git clone https://github.com/your-username/Car-selling-Bidding-Platform.git](https://github.com/JayaniBandara/Car-selling-Bidding-Platform.git)
 
+## Front End
 
-2. Navigate to the project directory:
-```bash
-cd Car-selling-Bidding-Platform 
 
-3. Install dependencies:
-```bash
-pip install -r requirements.txt
 
-4. Apply migrations:
-python manage.py migrate
-
-5. Run the development server:
-python manage.py runserver
 
 
