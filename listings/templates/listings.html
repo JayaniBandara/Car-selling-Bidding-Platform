@@ -133,30 +133,27 @@
     <h1 class="text-uppercase text-primary mb-1">Bid Car List</h1>
     
 
-<div class="container mt-5">
-    <div class="row">
-        {% for bidding in biddings %}
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <img src="{{ bidding.image.url }}" class="card-img-top" alt="{{ bidding.car_make }} {{ bidding.car_model }}">
-                    <div class="card-body">
-                        <h5 class="card-title">{{ bidding.car_make }} {{ bidding.car_model }}</h5>
-                        <p class="card-text">
-                            <strong>Year:</strong> {{ bidding.car_year }}<br>
-                            <strong>Starting Bid:</strong> ${{ bidding.bid_Start}}<br>
-                            <strong>Current Bid:</strong> ${{ bidding.bid_amount }}
-                        </p>
-                        <a href="{% url 'bidding' bidding.id %}" class="btn btn-primary">Place Bid</a>
+    <div class="container mt-5">
+        <div class="row">
+            {% for bidding in biddings %}
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="{{ bidding.image.url }}" class="card-img-top" alt="{{ bidding.car_make }} {{ bidding.car_model }}">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ bidding.car_make }} {{ bidding.car_model }}</h5>
+                            <p class="card-text">
+                                <strong>Year:</strong> {{ bidding.car_year }}<br>
+                                <strong>Starting Bid:</strong> ${{ bidding.bid_Start}}<br>
+                                <strong>Current Bid:</strong> ${{ bidding.bid_amount }}
+                            </p>
+                            <a href="{% url 'bidding' bidding.id %}" class="btn btn-primary">Place Bid</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        {% endfor %}
+            {% endfor %}
+        </div>
     </div>
-</div>
-<!-- Bidding Listings End -->
 
-
-        <!-- Footer Start -->
 
         <div class="container-fluid bg-dark py-4 px-sm-3 px-md-5">
             <p class="mb-2 text-center text-body">Created by Group23 Final Assignment</p>
